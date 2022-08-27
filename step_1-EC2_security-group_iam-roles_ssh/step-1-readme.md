@@ -13,7 +13,7 @@
         1. For port 22 from anywhere
         2. For port 80 from anywhere
 2. SSH on it via git bash and via winscp
-    1. ssh -i "your-key.pem" ec2-user@<your-instance-dns>.com
+    1. ``` ssh -i "your-key.pem" ec2-user@<your-instance-dns>.com ```
 3. Create accessible html page and deploy it via httpd
     1. ``` sudo su ```
     2. ``` yum update -y ```
